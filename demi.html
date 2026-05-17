@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-demi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demi Scadden · Program</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,300;1,9..144,400;1,9..144,500&family=JetBrains+Mono:wght@300;400;500;600&family=Inter+Tight:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/site.css" />
+  </head>
+  <body>
+    <header>
+      <div class="masthead">
+        <a href="index.html" class="logo">Demi <span class="amp">Scadden</span></a>
+      </div>
+      <div class="header-nav">
+        <nav class="site-nav" aria-label="Site">
+          <a href="index.html">Programs</a>
+          <a href="tanner.html">Tanner</a>
+          <a href="demi.html" aria-current="page">Demi</a>
+        </nav>
+        <nav class="page-nav" aria-label="On this page">
+          <a href="#targets">Targets</a>
+          <a href="#timeline">Timeline</a>
+          <a href="#operations">Operations</a>
+          <a href="#kitchen">Kitchen</a>
+          <a href="#training">Training</a>
+          <a href="#rules">Rules</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div>
+        <h1 class="hero-title rise" style="animation-delay: 0.1s">
+          Building<br />
+          <span class="em">strength.</span>
+        </h1>
+        <p class="hero-sub rise" style="animation-delay: 0.3s">
+          A twelve-month recomposition. Not a diet. The scale will barely move. The body will change
+          completely — protein, resistance bands, and the patient accumulation of muscle in a kitchen
+          and a living room.
+        </p>
+      </div>
+      <div class="hero-meta rise" style="animation-delay: 0.2s">
+        <div class="line"><span>Subject</span><span class="val">Demi Scadden</span></div>
+        <div class="line"><span>Baseline</span><span class="val">05 · 17 · 2026</span></div>
+        <div class="line"><span>Height</span><span class="val">5 ft 1 in</span></div>
+        <div class="line">
+          <span>Total Mass</span>
+          <span class="val">
+            <span class="val-range">
+              <span class="val-now val-status--neutral">130.7 lbs</span><span class="val-arrow">→</span
+              ><span class="val-goal">128 lbs</span>
+            </span>
+          </span>
+        </div>
+        <div class="line">
+          <span>Body Fat</span>
+          <span class="val">
+            <span class="val-range">
+              <span class="val-now val-status--bad">37.5 %</span><span class="val-arrow">→</span
+              ><span class="val-goal">30 %</span>
+            </span>
+          </span>
+        </div>
+        <div class="line">
+          <span>Lean Tissue</span>
+          <span class="val">
+            <span class="val-range">
+              <span class="val-now val-status--bad">77.2 lbs</span><span class="val-arrow">→</span
+              ><span class="val-goal">85 lbs</span>
+            </span>
+          </span>
+        </div>
+        <div class="line hero-meta-line--gloss">
+          <span class="hero-meta-term"
+            ><abbr title="Fat-free mass index">FFMI</abbr
+            ><span class="metric-gloss"> Muscle indexed to height, not scale weight.</span></span
+          >
+          <span class="val">
+            <span class="val-range">
+              <span class="val-now val-status--bad">14.6</span><span class="val-arrow">→</span
+              ><span class="val-goal">15.8</span>
+            </span>
+          </span>
+        </div>
+        <div class="line">
+          <span>RMR (est.)</span
+          ><span class="val"><span class="val-metric-plain val-status--neutral">1,143 kcal/day</span></span>
+        </div>
+        <div class="line hero-meta-line--gloss">
+          <span class="hero-meta-term"
+            ><abbr title="Visceral adipose tissue">VAT</abbr
+            ><span class="metric-gloss">
+              Fat deep around your organs—not pinchable belly fat.</span
+            ></span
+          >
+          <span class="val">
+            <span class="val-range">
+              <span class="val-now val-status--good">0.42 lbs</span><span class="val-arrow">→</span
+              ><span class="val-goal">&lt; 0.5 lbs</span>
+            </span>
+          </span>
+        </div>
+        <div class="line hero-meta-line--gloss">
+          <span class="hero-meta-term"
+            ><abbr title="Android-to-gynoid ratio (DEXA)">A/G Ratio</abbr
+            ><span class="metric-gloss">
+              Trunk vs hip–leg fat balance; lower means less centralized fat.</span
+            ></span
+          >
+          <span class="val">
+            <span class="val-range">
+              <span class="val-now val-status--good">0.81</span><span class="val-arrow">→</span
+              ><span class="val-goal">maintain</span>
+            </span>
+          </span>
+        </div>
+        <div class="line">
+          <span>Bone Z-Score</span
+          ><span class="val"><span class="val-metric-plain val-status--good">+ 0.3</span></span>
+        </div>
+        <div class="hero-metrics-legend">
+          <span><i data-tone="bad"></i> Baseline gap</span>
+          <span><i data-tone="neutral"></i> Context</span>
+          <span><i data-tone="good"></i> Fine at baseline</span>
+          <span><i data-tone="goal"></i> Program target</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="targets-band" id="targets">
+      <div class="targets-eyebrow">The four numbers that matter</div>
+      <div class="targets-grid">
+        <div class="target reveal" data-num="01">
+          <div class="target-label">Lean Mass</div>
+          <div class="target-flow">
+            <span class="target-from">77.2</span>
+            <span class="target-arrow">→</span>
+            <span class="target-to"><span class="em">85</span></span>
+          </div>
+          <div class="target-unit">LBS · +8 OVER 12 MO</div>
+        </div>
+        <div class="target reveal" data-num="02">
+          <div class="target-label">Body Fat</div>
+          <div class="target-flow">
+            <span class="target-from">37.5</span>
+            <span class="target-arrow">→</span>
+            <span class="target-to"><span class="em">30</span></span>
+          </div>
+          <div class="target-unit">PERCENT · DEXA MEASURED</div>
+        </div>
+        <div class="target reveal" data-num="03">
+          <div class="target-label">FFMI</div>
+          <div class="target-flow">
+            <span class="target-from">14.6</span>
+            <span class="target-arrow">→</span>
+            <span class="target-to"><span class="em">15.8</span></span>
+          </div>
+          <div class="target-unit">FAT-FREE MASS INDEX</div>
+        </div>
+        <div class="target reveal" data-num="04">
+          <div class="target-label">Visceral Fat</div>
+          <div class="target-flow">
+            <span class="target-from">0.42</span>
+            <span class="target-arrow">→</span>
+            <span class="target-to"><span class="em">&lt; 0.5</span></span>
+          </div>
+          <div class="target-unit">LBS · MAINTAIN · ALREADY EXCELLENT BASELINE</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="timeline">
+      <div class="section-head">
+        <h2 class="section-title">The <span class="em">timeline.</span></h2>
+        <div class="section-num">§ I · CHECKPOINTS</div>
+      </div>
+
+      <div class="timeline timeline-recomp">
+        <article class="milestone done reveal">
+          <div class="milestone-month">
+            <span class="big">00</span>Baseline<br />May 2026
+          </div>
+          <div class="milestone-content">
+            <h3 class="milestone-title">The <span class="em">starting line.</span></h3>
+            <p class="milestone-meta">
+              DEXA in hand. Bands ordered. Pantry being stocked. Twelve months ahead, beginning today.
+            </p>
+          </div>
+          <div class="milestone-stats">
+            <div class="stat"><span class="stat-label">Weight</span><span class="stat-val">130.7</span></div>
+            <div class="stat"><span class="stat-label">BF %</span><span class="stat-val">37.5</span></div>
+            <div class="stat"><span class="stat-label">Lean</span><span class="stat-val">77.2</span></div>
+            <div class="stat"><span class="stat-label">FFMI</span><span class="stat-val">14.6</span></div>
+          </div>
+        </article>
+
+        <article class="milestone reveal">
+          <div class="milestone-month">
+            <span class="big">01</span>Recomp<br />June 2026
+          </div>
+          <div class="milestone-content">
+            <h3 class="milestone-title">The first <span class="em">month.</span></h3>
+            <p class="milestone-meta">
+              The hardest one. Building the habits — daily protein, five workouts a week, a new kind of
+              patience. Scale won't move yet.
+            </p>
+          </div>
+          <div class="milestone-stats">
+            <div class="stat"><span class="stat-label">Weight</span><span class="stat-val">~ 131</span></div>
+            <div class="stat">
+              <span class="stat-label">Workouts</span><span class="stat-val">20 / 20</span>
+            </div>
+            <div class="stat">
+              <span class="stat-label">Protein</span><span class="stat-val">avg 110 g</span>
+            </div>
+            <div class="stat"><span class="stat-label">Energy</span><span class="stat-val">rising</span></div>
+          </div>
+        </article>
+
+        <article class="milestone reveal">
+          <div class="milestone-month">
+            <span class="big">03</span>Recomp<br />August 2026
+          </div>
+          <div class="milestone-content">
+            <h3 class="milestone-title">First <span class="em">DEXA reassessment.</span></h3>
+            <p class="milestone-meta">
+              Twelve weeks. The mirror is starting to show what the scale won't. Strength is up across
+              every band level.
+            </p>
+          </div>
+          <div class="milestone-stats">
+            <div class="stat"><span class="stat-label">Weight</span><span class="stat-val">~ 131</span></div>
+            <div class="stat"><span class="stat-label">BF %</span><span class="stat-val">~ 35</span></div>
+            <div class="stat">
+              <span class="stat-label">Lean</span><span class="stat-val"><span class="em">+ 2</span></span>
+            </div>
+            <div class="stat"><span class="stat-label">Fat</span><span class="stat-val">− 3</span></div>
+          </div>
+        </article>
+
+        <article class="milestone reveal">
+          <div class="milestone-month">
+            <span class="big">06</span>Recomp<br />November 2026
+          </div>
+          <div class="milestone-content">
+            <h3 class="milestone-title">The <span class="em">half-mark.</span></h3>
+            <p class="milestone-meta">
+              Six months. A different body underneath the same number. Clothes fit differently. Posture
+              changes. Arms have shape.
+            </p>
+          </div>
+          <div class="milestone-stats">
+            <div class="stat"><span class="stat-label">Weight</span><span class="stat-val">~ 130</span></div>
+            <div class="stat"><span class="stat-label">BF %</span><span class="stat-val">~ 33</span></div>
+            <div class="stat"><span class="stat-label">Lean</span><span class="stat-val">~ 81</span></div>
+            <div class="stat"><span class="stat-label">FFMI</span><span class="stat-val">~ 15.0</span></div>
+          </div>
+        </article>
+
+        <article class="milestone reveal">
+          <div class="milestone-month">
+            <span class="big">09</span>Recomp<br />February 2027
+          </div>
+          <div class="milestone-content">
+            <h3 class="milestone-title">Visible <span class="em">transformation.</span></h3>
+            <p class="milestone-meta">
+              Nine months. Muscle definition in shoulders, arms, glutes. Energy stable through the day.
+              Period regular through the entire process.
+            </p>
+          </div>
+          <div class="milestone-stats">
+            <div class="stat"><span class="stat-label">Weight</span><span class="stat-val">~ 129</span></div>
+            <div class="stat"><span class="stat-label">BF %</span><span class="stat-val">~ 31</span></div>
+            <div class="stat"><span class="stat-label">Lean</span><span class="stat-val">~ 83</span></div>
+            <div class="stat"><span class="stat-label">VAT</span><span class="stat-val">&lt; 0.5</span></div>
+          </div>
+        </article>
+
+        <article class="milestone reveal">
+          <div class="milestone-month">
+            <span class="big">12</span>Recomp End<br />May 2027
+          </div>
+          <div class="milestone-content">
+            <h3 class="milestone-title">The <span class="em">finish line.</span></h3>
+            <p class="milestone-meta">
+              One year. Scale down about three pounds. Body down ten percentage points of fat. Lean mass
+              up eight. The same dress, an entirely different person.
+            </p>
+          </div>
+          <div class="milestone-stats">
+            <div class="stat">
+              <span class="stat-label">Weight</span><span class="stat-val"><span class="em">128</span></span>
+            </div>
+            <div class="stat">
+              <span class="stat-label">BF %</span><span class="stat-val"><span class="em">30</span></span>
+            </div>
+            <div class="stat">
+              <span class="stat-label">Lean</span><span class="stat-val"><span class="em">85</span></span>
+            </div>
+            <div class="stat">
+              <span class="stat-label">FFMI</span>
+              <span class="stat-val"><span class="em">15.8</span></span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section ops-section" id="operations">
+      <div class="section-head">
+        <h2 class="section-title">Daily <span class="em">operations.</span></h2>
+        <div class="section-num">§ II · RECOMP PHASE</div>
+      </div>
+
+      <div class="ops-grid">
+        <div class="ops-card reveal">
+          <div class="num-decor">i</div>
+          <div class="ops-eyebrow">Fuel</div>
+          <h3 class="ops-title">The <span class="em">macros.</span></h3>
+          <ul class="ops-list">
+            <li><span class="label">Calories</span><span class="value">1,650</span></li>
+            <li><span class="label">Protein</span><span class="value">120 g</span></li>
+            <li><span class="label">Carbohydrate</span><span class="value">165 g</span></li>
+            <li><span class="label">Fat</span><span class="value">60 g</span></li>
+            <li><span class="label">Water</span><span class="value">80–100 oz</span></li>
+          </ul>
+        </div>
+        <div class="ops-card reveal">
+          <div class="num-decor">ii</div>
+          <div class="ops-eyebrow">Structure</div>
+          <h3 class="ops-title">The <span class="em">meals.</span></h3>
+          <ul class="ops-list">
+            <li><span class="label">Breakfast</span><span class="value">30 g protein</span></li>
+            <li><span class="label">Lunch</span><span class="value">35 g protein</span></li>
+            <li><span class="label">Snack</span><span class="value">20–25 g protein</span></li>
+            <li><span class="label">Dinner</span><span class="value">35 g protein</span></li>
+            <li><span class="label">Free meal</span><span class="value">1 × / wk</span></li>
+          </ul>
+        </div>
+        <div class="ops-card reveal">
+          <div class="num-decor">iii</div>
+          <div class="ops-eyebrow">Recovery</div>
+          <h3 class="ops-title">The <span class="em">habits.</span></h3>
+          <ul class="ops-list">
+            <li><span class="label">Sleep</span><span class="value">7.5–9 hr</span></li>
+            <li><span class="label">Daily walks</span><span class="value">6,000+ steps</span></li>
+            <li><span class="label">Rest day</span><span class="value">mobility flow</span></li>
+            <li><span class="label">Recovery day</span><span class="value">gentle yoga</span></li>
+            <li><span class="label">Progress photos</span><span class="value">every 4 wk</span></li>
+          </ul>
+        </div>
+        <div class="ops-card reveal">
+          <div class="num-decor">iv</div>
+          <div class="ops-eyebrow">Measure</div>
+          <h3 class="ops-title">The <span class="em">signal.</span></h3>
+          <ul class="ops-list">
+            <li><span class="label">Weigh-in</span><span class="value">daily AM avg</span></li>
+            <li><span class="label">Protein tracking</span><span class="value">daily</span></li>
+            <li><span class="label">Measurements</span><span class="value">monthly</span></li>
+            <li><span class="label">DEXA scan</span><span class="value">every 3 mo</span></li>
+            <li><span class="label">Bloodwork</span><span class="value">mo. 3 (full panel)</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section kitchen-section" id="kitchen">
+      <div class="section-head">
+        <h2 class="section-title">The <span class="em">kitchen.</span></h2>
+        <div class="section-num">§ IIa · SAMPLE WEEK</div>
+      </div>
+
+      <div class="kitchen-grid reveal">
+        <div class="kitchen-col">
+          <h3>Breakfast</h3>
+          <ul class="meal-rows">
+            <li>
+              <span class="meal-name">Greek yogurt + berries + almonds + honey</span>
+              <span class="meal-meta">28 g · 380 cal</span>
+            </li>
+            <li>
+              <span class="meal-name">Veggie scramble + feta + avocado + sourdough</span>
+              <span class="meal-meta">28 g · 420 cal</span>
+            </li>
+            <li>
+              <span class="meal-name">Protein oats + whey + banana + peanut butter</span>
+              <span class="meal-meta">35 g · 430 cal</span>
+            </li>
+            <li>
+              <span class="meal-name">Protein pancakes + maple syrup + berries</span>
+              <span class="meal-meta">30 g · 380 cal</span>
+            </li>
+            <li>
+              <span class="meal-name">Protein smoothie + whey + berries + spinach</span>
+              <span class="meal-meta">32 g · 400 cal</span>
+            </li>
+          </ul>
+        </div>
+        <div class="kitchen-col">
+          <h3>Lunch</h3>
+          <ul class="meal-rows">
+            <li>
+              <span class="meal-name">Grilled chicken + white rice + roasted peppers + feta</span>
+              <span class="meal-meta">40 g · 520 cal</span>
+            </li>
+            <li>
+              <span class="meal-name">Turkey &amp; avocado wrap + carrots + ranch</span>
+              <span class="meal-meta">38 g · 510 cal</span>
+            </li>
+            <li>
+              <span class="meal-name">Salmon rice bowl + edamame + cucumber</span>
+              <span class="meal-meta">35 g · 530 cal</span>
+            </li>
+            <li>
+              <span class="meal-name">Rotisserie chicken + fruit + crackers</span>
+              <span class="meal-meta">36 g · 480 cal</span>
+            </li>
+            <li>
+              <span class="meal-name">Chicken breast + white rice + green beans</span>
+              <span class="meal-meta">38 g · 520 cal</span>
+            </li>
+          </ul>
+        </div>
+        <div class="kitchen-col">
+          <h3>Snack</h3>
+          <ul class="meal-rows">
+            <li>
+              <span class="meal-name">Whey shake + milk</span>
+              <span class="meal-meta">30 g · 200 cal</span>
+            </li>
+            <li>
+              <span class="meal-name">Deli turkey slices + cheddar + crackers</span>
+              <span class="meal-meta">22 g · 200 cal</span>
+            </li>
+            <li>
+              <span class="meal-name">Protein bar + string cheese</span>
+              <span class="meal-meta">25 g · 270 cal</span>
+            </li>
+            <li>
+              <span class="meal-name">Greek yogurt + protein granola</span>
+              <span class="meal-meta">25 g · 250 cal</span>
+            </li>
+            <li>
+              <span class="meal-name">Turkey roll-ups + cheese + almonds</span>
+              <span class="meal-meta">28 g · 290 cal</span>
+            </li>
+          </ul>
+        </div>
+        <div class="kitchen-col">
+          <h3>Dinner</h3>
+          <ul class="meal-rows">
+            <li>
+              <span class="meal-name">Chicken stir-fry + rice + sesame</span>
+              <span class="meal-meta">40 g · 520 cal</span>
+            </li>
+            <li>
+              <span class="meal-name">Turkey meatballs + zucchini noodles + parm</span>
+              <span class="meal-meta">38 g · 480 cal</span>
+            </li>
+            <li>
+              <span class="meal-name">Salmon + roasted potatoes + asparagus</span>
+              <span class="meal-meta">35 g · 540 cal</span>
+            </li>
+            <li>
+              <span class="meal-name">Lean beef tacos + black beans + Greek yogurt</span>
+              <span class="meal-meta">42 g · 580 cal</span>
+            </li>
+            <li>
+              <span class="meal-name">Shrimp + white rice + roasted peppers + lemon butter</span>
+              <span class="meal-meta">38 g · 500 cal</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="training">
+      <div class="section-head">
+        <h2 class="section-title">The <span class="em">split.</span></h2>
+        <div class="section-num">§ III · 5 DAYS / WEEK</div>
+      </div>
+
+      <p class="training-intro reveal">
+        Two days on. One day rest. Three days on. One day recovery. The schedule alternates intensity
+        with restoration in a 7-day cycle, hitting every muscle group twice with full recovery between
+        exposures.
+      </p>
+
+      <div class="schedule-grid reveal" aria-label="Weekly training schedule">
+        <div class="schedule-day">
+          <div class="schedule-day-name">MON</div>
+          <div class="schedule-day-workout">LOWER A</div>
+          <div class="schedule-day-focus">glutes</div>
+        </div>
+        <div class="schedule-day">
+          <div class="schedule-day-name">TUE</div>
+          <div class="schedule-day-workout">UPPER A</div>
+          <div class="schedule-day-focus">push</div>
+        </div>
+        <div class="schedule-day schedule-day--rest">
+          <div class="schedule-day-name">WED</div>
+          <div class="schedule-day-workout">REST</div>
+          <div class="schedule-day-focus">—</div>
+        </div>
+        <div class="schedule-day">
+          <div class="schedule-day-name">THU</div>
+          <div class="schedule-day-workout">LOWER B</div>
+          <div class="schedule-day-focus">quads</div>
+        </div>
+        <div class="schedule-day">
+          <div class="schedule-day-name">FRI</div>
+          <div class="schedule-day-workout">UPPER B</div>
+          <div class="schedule-day-focus">pull</div>
+        </div>
+        <div class="schedule-day">
+          <div class="schedule-day-name">SAT</div>
+          <div class="schedule-day-workout">CORE</div>
+          <div class="schedule-day-focus">mobility</div>
+        </div>
+        <div class="schedule-day schedule-day--recovery">
+          <div class="schedule-day-name">SUN</div>
+          <div class="schedule-day-workout">RECOVER</div>
+          <div class="schedule-day-focus">yoga</div>
+        </div>
+      </div>
+
+      <div class="workouts-grid reveal">
+        <div class="day-card">
+          <div class="day-header">
+            <div class="day-name"><span class="em">Lower</span> A</div>
+            <div class="day-num">MON · GLUTES</div>
+          </div>
+          <ul class="exercise-list">
+            <li class="has-note">
+              <span class="ex-name">Glute bridge march</span><span class="ex-scheme">3 × 12/side</span>
+              <span class="ex-note">Hips up, alternate knee drives</span>
+            </li>
+            <li class="has-note">
+              <span class="ex-name">Banded hip thrust</span><span class="ex-scheme">4 × 12</span>
+              <span class="ex-note">Shoulders on couch, band above knees</span>
+            </li>
+            <li class="has-note">
+              <span class="ex-name">Reverse lunge</span><span class="ex-scheme">3 × 10/leg</span>
+              <span class="ex-note">Step back, not forward</span>
+            </li>
+            <li class="has-note">
+              <span class="ex-name">Banded clamshell</span><span class="ex-scheme">3 × 15/side</span>
+              <span class="ex-note">Side-lying, band above knees</span>
+            </li>
+            <li class="has-note">
+              <span class="ex-name">Single-leg glute bridge</span><span class="ex-scheme">3 × 10/side</span>
+              <span class="ex-note">Slow tempo</span>
+            </li>
+            <li class="has-note">
+              <span class="ex-name">Wall sit</span><span class="ex-scheme">2 × 30–45 s</span>
+              <span class="ex-note">Isometric quad work</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="day-card">
+          <div class="day-header">
+            <div class="day-name"><span class="em">Upper</span> A</div>
+            <div class="day-num">TUE · PUSH</div>
+          </div>
+          <ul class="exercise-list">
+            <li class="has-note">
+              <span class="ex-name">Incline push-up</span><span class="ex-scheme">3 × 8–12</span>
+              <span class="ex-note">Hands on couch; lower as strength builds</span>
+            </li>
+            <li class="has-note">
+              <span class="ex-name">Banded chest press</span><span class="ex-scheme">3 × 12</span>
+              <span class="ex-note">Anchor band behind, press forward</span>
+            </li>
+            <li class="has-note">
+              <span class="ex-name">Banded shoulder press</span><span class="ex-scheme">3 × 10</span>
+              <span class="ex-note">Stand on band, press overhead</span>
+            </li>
+            <li class="has-note">
+              <span class="ex-name">Banded lateral raise</span><span class="ex-scheme">3 × 12</span>
+              <span class="ex-note">Light band, controlled</span>
+            </li>
+            <li class="has-note">
+              <span class="ex-name">Tricep pushdown</span><span class="ex-scheme">3 × 12</span>
+              <span class="ex-note">Anchor high</span>
+            </li>
+            <li class="has-note">
+              <span class="ex-name">Plank</span><span class="ex-scheme">3 × 30 s</span>
+              <span class="ex-note">Neutral spine</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="day-card">
+          <div class="day-header">
+            <div class="day-name"><span class="em">Lower</span> B</div>
+            <div class="day-num">THU · QUADS &amp; HAMS</div>
+          </div>
+          <ul class="exercise-list">
+            <li class="has-note">
+              <span class="ex-name">Goblet squat (band)</span><span class="ex-scheme">3 × 10</span>
+              <span class="ex-note">Stand on band, hold loops at chest</span>
+            </li>
+            <li class="has-note">
+              <span class="ex-name">Bulgarian split squat</span><span class="ex-scheme">3 × 8/leg</span>
+              <span class="ex-note">Rear foot on couch</span>
+            </li>
+            <li class="has-note">
+              <span class="ex-name">Banded leg curl</span><span class="ex-scheme">3 × 12/leg</span>
+              <span class="ex-note">Lying, loop ankle</span>
+            </li>
+            <li class="has-note">
+              <span class="ex-name">Step-up</span><span class="ex-scheme">3 × 10/leg</span>
+              <span class="ex-note">Sturdy chair, no momentum</span>
+            </li>
+            <li class="has-note">
+              <span class="ex-name">Banded glute kickback</span><span class="ex-scheme">3 × 12/side</span>
+              <span class="ex-note">Quadruped</span>
+            </li>
+            <li class="has-note">
+              <span class="ex-name">Calf raise</span><span class="ex-scheme">3 × 15</span>
+              <span class="ex-note">Standing, both legs</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="day-card">
+          <div class="day-header">
+            <div class="day-name"><span class="em">Upper</span> B</div>
+            <div class="day-num">FRI · PULL</div>
+          </div>
+          <ul class="exercise-list">
+            <li class="has-note">
+              <span class="ex-name">Banded bent-over row</span><span class="ex-scheme">4 × 10</span>
+              <span class="ex-note">Minimal hip hinge — keep spine neutral</span>
+            </li>
+            <li class="has-note">
+              <span class="ex-name">Banded face pull</span><span class="ex-scheme">3 × 12</span>
+              <span class="ex-note">Anchor at face height</span>
+            </li>
+            <li class="has-note">
+              <span class="ex-name">Banded pull-apart</span><span class="ex-scheme">3 × 15</span>
+              <span class="ex-note">Straight arms at chest height</span>
+            </li>
+            <li class="has-note">
+              <span class="ex-name">Banded bicep curl</span><span class="ex-scheme">3 × 12</span>
+              <span class="ex-note">Stand on band</span>
+            </li>
+            <li class="has-note">
+              <span class="ex-name">Banded reverse fly</span><span class="ex-scheme">3 × 12</span>
+              <span class="ex-note">Slight forward bend</span>
+            </li>
+            <li class="has-note">
+              <span class="ex-name">Superman hold</span><span class="ex-scheme">3 × 15 s</span>
+              <span class="ex-note">Gentle back extension</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="day-card">
+          <div class="day-header">
+            <div class="day-name"><span class="em">Core</span> + mobility</div>
+            <div class="day-num">SAT</div>
+          </div>
+          <ul class="exercise-list">
+            <li class="has-note">
+              <span class="ex-name">Dead bug</span><span class="ex-scheme">3 × 8/side</span>
+              <span class="ex-note">Lower back pressed to floor</span>
+            </li>
+            <li class="has-note">
+              <span class="ex-name">Bird dog</span><span class="ex-scheme">3 × 8/side</span>
+              <span class="ex-note">Opposite arm/leg, 2 s hold</span>
+            </li>
+            <li class="has-note">
+              <span class="ex-name">Side plank</span><span class="ex-scheme">3 × 20–30 s/side</span>
+              <span class="ex-note">Lateral core stability</span>
+            </li>
+            <li class="has-note">
+              <span class="ex-name">Pallof press (band)</span><span class="ex-scheme">3 × 10/side</span>
+              <span class="ex-note">Anti-rotation</span>
+            </li>
+            <li class="has-note">
+              <span class="ex-name">Glute bridge hold</span><span class="ex-scheme">3 × 30 s</span>
+              <span class="ex-note">Isometric</span>
+            </li>
+            <li class="has-note">
+              <span class="ex-name">Cat-cow + child's pose</span><span class="ex-scheme">5 min</span>
+              <span class="ex-note">Spinal mobility</span>
+            </li>
+            <li class="has-note">
+              <span class="ex-name">Hip flexor stretch</span><span class="ex-scheme">2 × 45 s/side</span>
+              <span class="ex-note">Counter desk posture</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section progression-block" style="margin-top: clamp(48px, 6vw, 80px); padding: 0">
+        <div class="section-head" style="margin-bottom: 32px; padding-bottom: 16px">
+          <h2 class="section-title" style="font-size: clamp(28px, 3vw, 40px)">
+            How to <span class="em">progress.</span>
+          </h2>
+          <div class="section-num">§ IIIa · WEEKLY PROGRESSION</div>
+        </div>
+        <ol class="progression-list reveal">
+          <li>
+            <span class="prog-num">i</span>
+            <p class="prog-body">
+              Add reps. When 3×10 feels easy, progress to 3×12, then 3×15.
+            </p>
+          </li>
+          <li>
+            <span class="prog-num">ii</span>
+            <p class="prog-body">Upgrade band tension. Light → medium → heavy.</p>
+          </li>
+          <li>
+            <span class="prog-num">iii</span>
+            <p class="prog-body">
+              Change leverage. Incline push-up → flat → decline. Assisted single-leg → unassisted.
+            </p>
+          </li>
+          <li>
+            <span class="prog-num">iv</span>
+            <p class="prog-body">Add tempo. Three-second descent, one-second pause, one-second up.</p>
+          </li>
+          <li>
+            <span class="prog-num">v</span>
+            <p class="prog-body">Add a set. Three sets → four sets.</p>
+          </li>
+        </ol>
+        <p class="progression-foot reveal">
+          Every working set logged. When all sets at top of rep range with full tempo feel easy,
+          progress on the next session. Never two levers at once.
+        </p>
+      </div>
+    </section>
+
+    <section class="section rules-section" id="rules">
+      <div class="section-head">
+        <h2 class="section-title">The <span class="em">rules.</span></h2>
+        <div class="section-num">§ IV · ADJUSTMENT TRIGGERS</div>
+      </div>
+
+      <div class="rules-grid">
+        <div class="rule reveal">
+          <h3 class="rule-trigger">
+            If weight unchanged <span class="em">for four weeks</span> and measurements unchanged
+          </h3>
+          <p class="rule-action">
+            Drop 100 cal/day OR add a 20-min daily walk. Recomp stall, not failure.
+          </p>
+        </div>
+        <div class="rule reveal">
+          <h3 class="rule-trigger">If weight dropping <span class="em">more than 0.7 lb/week</span></h3>
+          <p class="rule-action">
+            Add 100 cal/day. The deficit is too aggressive — it will cost muscle.
+          </p>
+        </div>
+        <div class="rule reveal">
+          <h3 class="rule-trigger">If energy crashes, mood drops, sleep worsens</h3>
+          <p class="rule-action">Eat at maintenance for one week. Reassess. Recovery is part of the program.</p>
+        </div>
+        <div class="rule reveal">
+          <h3 class="rule-trigger">If lifts <span class="em">stop progressing for two weeks</span></h3>
+          <p class="rule-action">
+            Check sleep and protein first. If both are solid, deload one week.
+          </p>
+        </div>
+        <div class="rule reveal">
+          <h3 class="rule-trigger">If lower back <span class="em">flares</span></h3>
+          <p class="rule-action">
+            Skip the lower-body day. Substitute upper body or core + mobility. The injury comes first.
+          </p>
+        </div>
+        <div class="rule rule-critical reveal">
+          <p class="rule-label">NON-NEGOTIABLE</p>
+          <h3 class="rule-trigger">
+            <strong>If the menstrual cycle changes</strong>
+            <span class="em">(irregular, missing, or notably different)</span>
+          </h3>
+          <p class="rule-action">
+            <strong>Stop the deficit immediately. Eat at maintenance. See a doctor if it persists.</strong>
+            Female metabolism is sensitive to caloric stress in ways that overrule any aesthetic goal —
+            this rule is non-negotiable.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing">
+      <div class="closing-mark">Finis</div>
+      <p class="closing-quote">
+        The scale will not move. The mirror will. The DEXA will. The dumbbells will.
+        <span class="em">Trust the slow build</span> — the body is changing in places the scale cannot see.
+      </p>
+      <div class="closing-sig">Program authored · May 17, 2026 · Calistoga</div>
+    </section>
+
+    <footer>
+      <div>The Quiet Build · DS</div>
+      <div>Vol. II · 2026—2027</div>
+      <div>Printed in paper &amp; ink</div>
+    </footer>
+
+    <script>
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((e) => {
+            if (e.isIntersecting) {
+              e.target.classList.add("visible");
+              observer.unobserve(e.target);
+            }
+          });
+        },
+        { threshold: 0.12, rootMargin: "0px 0px -40px 0px" },
+      );
+      document.querySelectorAll(".reveal").forEach((el) => {
+        observer.observe(el);
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+# Sensitive health data
+dexa-scans/
+
+# Reference files
+reference/
+
+# Python virtual environment
+.venv-pdf/
